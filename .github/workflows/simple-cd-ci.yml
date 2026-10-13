@@ -1,0 +1,14 @@
+name: simple ci/cd demo 
+    
+on:
+  push:
+        branches:
+                  -main
+jobs:
+      job1:
+            runs-on: ubuntu-latest
+            steps: 
+                    name: hallo welcome
+                    run: echo "hallo welcome"                      
+    
+    
